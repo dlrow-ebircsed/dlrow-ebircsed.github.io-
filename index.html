@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>taobao-nav</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .aaa {
+            display: inline;
+            margin: 0;
+            border: 0;
+            padding: 0 6px;
+            text-align: center;
+            line-height: 35px;
+            font-size: 12px;
+        }
+
+        span {
+            color: #6c6c6c;
+        }
+
+        a {
+            color: #6c6c6c;
+            text-decoration: none;
+        }
+
+        img {
+            width: 12px;
+            margin-right: 5px;
+            border: 0;
+            padding: 0;
+        }
+
+        #nav {
+            background-color: #f5f5f5;
+            height: 35px;
+        }
+
+        #content {
+            width: 1190px;
+            margin: 0 auto;
+        }
+
+        #left {
+            float: left;
+        }
+
+        #right {
+            float: right;
+        }
+
+        .China {
+            position: relative;
+            display: inline-block;
+        }
+
+        .china {
+            height: 350px;
+            color: black;
+            display: none;
+            position: absolute;
+            font-size: 12px;
+            min-width: 300px;
+            overflow: scroll;
+        }
+
+        .china a {
+            padding: 12px 14px;
+            display: block;
+        }
+
+        .china a:hover {
+            background-color: #f4f4f4;
+        }
+
+        .China:hover .china {
+            display: block;
+        }
+
+        .Mine {
+            position: relative;
+            display: inline-block;
+        }
+
+        .mine {
+            width: 50px;
+            color: #3c3c3c;
+            display: none;
+            position: absolute;
+            font-size: 12px;
+            min-width: 100px;
+        }
+
+        .mine a {
+            padding: 12px 14px;
+            display: block;
+        }
+
+        .Mine a:hover {
+            background-color: #f4f4f4;
+        }
+
+        .Mine:hover .mine {
+            display: block;
+        }
+
+        .Collect {
+            position: relative;
+            display: inline-block;
+        }
+
+        .collect {
+            width: 50px;
+            color: #3c3c3c;
+            display: none;
+            position: absolute;
+            font-size: 12px;
+            min-width: 90px;
+        }
+
+        .collect a {
+            padding: 12px 14px;
+            display: block;
+        }
+
+        .Collect a:hover {
+            background-color: #f4f4f4;
+        }
+
+        .Collect:hover .collect {
+            display: block;
+        }
+
+        .Sale {
+            position: relative;
+            display: inline-block;
+        }
+
+        .sale {
+            width: 50px;
+            color: #3c3c3c;
+            display: none;
+            position: absolute;
+            font-size: 12px;
+            min-width: 100px;
+        }
+
+        .sale a {
+            padding: 12px 14px;
+            display: block;
+        }
+
+        .Sale a:hover {
+            background-color: #f4f4f4;
+        }
+
+        .Sale:hover .sale {
+            display: block;
+        }
+
+        .Contact {
+            /* position: relative; */
+            display: inline-block;
+        }
+
+        .contact {
+            width: 50px;
+            color: #3c3c3c;
+            display: none;
+            position: absolute;
+            font-size: 12px;
+            min-width: 100px;
+        }
+
+        .contact a {
+            padding: 12px 14px;
+            display: block;
+        }
+
+        .Contact a:hover {
+            background-color: #f4f4f4;
+        }
+
+        .Contact:hover .contact {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+        <div id="content">
+            <ul id="left">
+                <div class="China">
+                    <li class="aaa"><span style="color: #3c3c3c;">中国大陆</span></li>
+                    <div class="china">
+                        <ul>
+                            <li><a href="">全球</a></li>
+                            <li><a href="">中国大陆</a></li>
+                            <li><a href="">中国香港</a></li>
+                            <li><a href="">中国台湾</a></li>
+                            <li><a href="">中国澳门</a></li>
+                            <li><a href="">韩国</a></li>
+                            <li><a href="">马来西亚</a></li>
+                            <li><a href="">澳大利亚</a></li>
+                            <li><a href="">新加坡</a></li>
+                            <li><a href="">新西兰</a></li>
+                            <li><a href="">加拿大</a></li>
+                            <li><a href="">美国</a></li>
+                            <li><a href="">日本</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <li class="aaa">
+                    <a style="color:#F40;font-size: 12px;"
+                        href="https://login.taobao.com/member/login.jhtml?spm=a21bo.2017.754894437.1.2c4811d9RtxYO7&f=top&redirectURL=https%3A%2F%2Fwww.taobao.com%2F%3Fspm%3Da2145.7268393.0.0.f9aa5d7cJH4QAP">亲，请登录</a>
+                </li>
+                <li class="aaa">
+                    <a href="https://reg.taobao.com/member/reg/fill_mobile.htm">免费注册</a>
+                </li>
+                <li class="aaa">
+                    <a
+                        href="https://mpage.taobao.com/hd/download.html?spm=a21bo.2017.1997563273.1.2c4811d9R7uDuQ">手机逛淘宝</a>
+                </li>
+            </ul>
+            <ul id="right">
+                <div class="Mine">
+                    <li class="aaa">
+                        <a
+                            href="https://login.taobao.com/member/login.jhtml?from=taobaoindex&f=top&style=&sub=true&redirect_url=https%3A%2F%2Fi.taobao.com%2Fmy_taobao.htm%3Fspm%3Da21bo.2017.1997525045.1.2c4811d9wSTz2x">我的淘宝</a>
+                    </li>
+                    <div class="mine">
+                        <ul>
+                            <li><a href="">已买到的宝贝</a></li>
+                            <li><a href="">我的足迹</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <li class="aaa">
+                    <img src="images\cart.png" alt="购物车">
+                    <a
+                        href="https://login.taobao.com/member/login.jhtml?redirectURL=http%3A%2F%2Fcart.taobao.com%2Fcart.htm%3Fspm%3Da21bo.2017.1997525049.1.2c4811d9OP25mO%26from%3Dmini%26pm_id%3D1501036000a02c5c3739">购物车</a>
+                </li>
+                <div class="Collect">
+                    <li class="aaa">
+                        <img src="images\star.png" alt="收藏夹">
+                        <a
+                            href="https://login.taobao.com/member/login.jhtml?from=taobaoindex&f=top&style=&sub=true&redirect_url=https%3A%2F%2Fshoucang.taobao.com%2Fitem_collect_n.htm%3Fspm%3Da21bo.2017.1997525053.1.2c4811d9fVosyh">收藏夹</a>
+                    </li>
+                    <div class="collect">
+                        <ul>
+                            <li><a href="">收藏的宝贝</a></li>
+                            <li><a href="">收藏的店铺</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <li class="aaa">
+                    <a
+                        href="https://www.taobao.com/tbhome/page/market-list?spm=a21bo.2017.1997563209.1.2c4811d9RJ9h3h">商品分类</a>
+                </li>
+                <div class="Sale">
+                    <li class="aaa">
+                        <a
+                            href="https://login.taobao.com/member/login.jhtml?from=taobaoindex&f=top&style=&sub=true&redirect_url=https%3A%2F%2Fmyseller.taobao.com%2Fseller_admin.htm">千牛卖家中心</a>
+                    </li>
+                    <div class="sale">
+                        <ul>
+                            <li><a href="">免费开店</a></li>
+                            <li><a href="">已卖出的宝贝</a></li>
+                            <li><a href="">出售中的宝贝</a></li>
+                            <li><a href="">卖家服务市场</a></li>
+                            <li><a href="">卖家培训中心</a></li>
+                            <li><a href="">体验中心</a></li>
+                            <li><a href="">问商友</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="Contact">
+                    <li class="aaa">
+                        <a href="https://consumerservice.taobao.com/?spm=a21bo.2017.754895749.1.2c4811d98h7D6e">联系客服</a>
+                    </li>
+                    <div class="contact">
+                        <ul>
+                            <li><a href="">消费者客服</a></li>
+                            <li><a href="">卖家客服</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <li class="aaa">
+                    <img src="images\menu.png" alt="网站导航">
+                    <a
+                        href="https://www.taobao.com/tbhome/page/sitemap?spm=a21bo.2017.1997525077.1.2c4811d9nd2V8O">网站导航</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
